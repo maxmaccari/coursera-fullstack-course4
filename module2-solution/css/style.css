@@ -150,8 +150,7 @@ h1 {
   text-align: center;
 }
 
-
-.menu-entry {
+#menu .menu-entry {
   border: 1px solid black;
   padding: 12px;
   position: relative;
@@ -162,7 +161,7 @@ h1 {
   overflow-x: hidden;
 }
 
-.menu-entry h2 {
+#menu .menu-entry h2 {
   display: inline;
   padding: 3px 24px;
   border: 1px solid black;
@@ -171,7 +170,7 @@ h1 {
   right: -1px;
 }
 
-.menu-entry p {
+#menu .menu-entry p {
   margin-top: 30px
 }
 
@@ -186,4 +185,8 @@ h1 {
 
 #menu div:nth-child(3n + 3) .menu-entry h2{
   background-color: lightgreen;
+}
+
+#menu .menu-entry:last-child {
+  margin-bottom: 24px;
 }
